@@ -1,0 +1,7 @@
+class MyCustomException(Exception):
+    pass
+
+def getDeployList(jira_ticket):
+    # logic
+    raise MyCustomException()
+
